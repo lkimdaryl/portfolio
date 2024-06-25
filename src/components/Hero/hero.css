@@ -1,0 +1,56 @@
+.hero-wrapper {
+    position: sticky;
+    top: 0;
+    /* padding-top: 50px; */
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background-color: var(--background-color);
+}
+
+@media screen and (max-width: 600px) {
+    .hero-wrapper {
+        position: relative;
+    }
+}
+
+#hero {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: var(--background-color);
+    width: 50%;
+}
+
+#hero img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+    max-width: 200px;
+    min-width: 150px;
+}
+
+#hero p {
+    background: var(--background-color);
+    padding: 20px 0;
+}
+
+#my-name {
+    color: var(--main-text-color);
+}
+
+#intro strong {
+    font-size: 1.5em;
+    color: orange;
+}
+
+#title {
+    color: var(--heading-color);
+}
+
+strong {
+    color: var(--emphasis-color);
+}
+
+.hero div p strong {
+    color: var(--main-text-color);
+}
