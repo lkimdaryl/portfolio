@@ -33,7 +33,7 @@ const Projects = () => {
         );
       };
 
-    const FoodJournalTech = ["HTML", "CSS", "Python", "FastAPI", "React", "Vite", "MySQL", "SQLAlchemy"]
+    const FoodJournalTech = ["HTML", "CSS", "Python", "FastAPI", "React", "Vite", "JavaScript", "MySQL", "SQLAlchemy"]
     
     const MyPortfolioDetails: React.FC = () => {
         return (
@@ -44,7 +44,7 @@ const Projects = () => {
         );
       };
 
-    const MyPortfolioTech = ["HTML", "CSS", "React", "Vite", "TypeScript"]
+    const MyPortfolioTech = ["HTML", "CSS", "React", "Vite", "TypeScript", "JavaScript"]
 
     return (
         <div className="project-section" id="projects">
@@ -71,8 +71,8 @@ const Projects = () => {
                     alt="MyPortfolio image" 
                     projectName="Kim's Portfolio" 
                     projectDetails={<MyPortfolioDetails />} 
-                    sourceAddress={'https://github.com/lkimdaryl/cse134b_hw4'} 
-                    liveDemoAddress={'https://glittering-gumdrop-b92e12.netlify.app/'} 
+                    sourceAddress={'https://github.com/lkimdaryl/portfolio'} 
+                    liveDemoAddress={'https://lkimdaryl.netlify.app/'} 
                     technologies={MyPortfolioTech} />
             </div>
             {/* <button id="view-all-btn">View More Projects</button> */}
