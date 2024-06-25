@@ -1,5 +1,5 @@
 import './header.css';
-import SearchBox from '../SearchBox/searchbox';
+// import SearchBox from '../SearchBox/searchbox';
 import ModeSwitcher from '../ModeSwitcher/modeswitcher';
 import logo from '../../assets/logo.svg';
 import { useState } from 'react';

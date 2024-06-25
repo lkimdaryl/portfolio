@@ -4,9 +4,7 @@ import MVP from '../../assets/MVP_display.png'
 import FoodJournal from '../../assets/foodJournal.png'
 import MyPortfolio from '../../assets/myPortfolio.png'
 
-const Projects = () => {
-    const details = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
+const Projects = () => {    
     const MVPDetails: React.FC = () => {
         return (
             <p>
