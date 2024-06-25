@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: block;
+}
+
+body {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0 auto;
+  padding: 0 5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  height: 100%;
+  background-color: var(--background-color);
+  font-family: Arial, sans-serif;
+  color: var(--main-text-color);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.section-title {
+  color: var(--heading-color);
+  text-align: left;
+}
