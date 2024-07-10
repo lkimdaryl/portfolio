@@ -1,6 +1,5 @@
 import './projects.css'
 import Project from './project.tsx'
-import MVP from '../../assets/MVP_display.png'
 import FoodJournal from '../../assets/foodJournal.png'
 import MyPortfolio from '../../assets/myPortfolio.png'
 import TranslationApp from '../../assets/translationApp.png'
