@@ -7,23 +7,6 @@ import TranslationApp from '../../assets/translationApp.png'
 import MachineLearning from '../../assets/machineLearning.png'
 
 const Projects = () => {    
-    const MVPDetails: React.FC = () => {
-        return (
-            <p>
-                Provides a space for users to explore and share their MVP
-                (Minimum Viable Product) ideas.
-                <br/><br/>
-                Offers essential social networking features, including user registration, login,
-                profile viewing, leaderboards, and MVP updates.
-                <br/><br/>
-                Utilizes JWT token to authenticate and authorize
-                users for security.
-            </p>
-        );
-      };
-
-    const MVPTech = ["JavaScript", "HTML", "CSS", "Python", "FastAPI"]
-
     const FoodJournalDetails: React.FC = () => {
         return (
             <p>
