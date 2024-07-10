@@ -3,6 +3,8 @@ import Project from './project.tsx'
 import MVP from '../../assets/MVP_display.png'
 import FoodJournal from '../../assets/foodJournal.png'
 import MyPortfolio from '../../assets/myPortfolio.png'
+import TranslationApp from '../../assets/translationApp.png'
+import MachineLearning from '../../assets/machineLearning.png'
 
 const Projects = () => {    
     const MVPDetails: React.FC = () => {
@@ -46,6 +48,32 @@ const Projects = () => {
 
     const MyPortfolioTech = ["HTML", "CSS", "React", "Vite", "TypeScript", "JavaScript"]
 
+    const TranslationAppDetails: React.FC = () => {
+        return (
+            <p>
+                A mobile app that allows users to translate from one language to another.
+                Has features such as speech to text and vice versa.
+            </p>
+        );
+      };
+
+    const TranslationAppTech = ["React", "React Native", "Expo", "TypeScript", "JavaScript"]
+
+    const MLDetails: React.FC = () => {
+        return (
+            <p>
+                A comprehensive machine learning endeavor that involves data preprocessing, 
+                model training, and performance evaluation. It showcases proficiency in Python 
+                and relevant libraries like NumPy, pandas, and scikit-learn, with a well-organized 
+                repository featuring scripts and datasets. The project includes various machine 
+                learning algorithms, thoroughly evaluated for accuracy, precision, and recall, 
+                demonstrating an effective collaborative workflow using GitHub.
+            </p>
+        );
+      };
+
+    const MLTech = ["Python", "Numpy", "pandas", "scikit-learn", "Tensorflow"]
+
     return (
         <div className="project-section" id="projects">
             <h2 className="section-title"> Projects</h2>
@@ -59,13 +87,21 @@ const Projects = () => {
                     liveDemoAddress={'https://foodjournal2.netlify.app'} 
                     technologies={FoodJournalTech} />
                 <Project 
-                    image={MVP} 
-                    alt="Minimum Viable Product image" 
-                    projectName="MVP Ideahub" 
-                    projectDetails={<MVPDetails />} 
-                    sourceAddress={'https://github.com/lkimdaryl/MVPIdeation'} 
+                    image={TranslationApp} 
+                    alt="Translation App image" 
+                    projectName="Translation App" 
+                    projectDetails={<TranslationAppDetails />} 
+                    sourceAddress={'https://github.com/lkimdaryl/translator-app'} 
                     liveDemoAddress={''} 
-                    technologies={MVPTech} />
+                    technologies={TranslationAppTech} />
+                <Project 
+                    image={MachineLearning} 
+                    alt="Machine Learning image" 
+                    projectName="Machine Learning Study" 
+                    projectDetails={<MLDetails />} 
+                    sourceAddress={'https://github.com/lkimdaryl/CSE151AProject'} 
+                    liveDemoAddress={''} 
+                    technologies={MLTech} />
                 <Project 
                     image={MyPortfolio} 
                     alt="MyPortfolio image" 

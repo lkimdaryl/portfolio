@@ -15,7 +15,7 @@ const Hero = () => {
                 <div>
                     <h2 id="title">Creative <br />Developer</h2>
                     <p><strong>
-                        I build accessible, inclusive products and digital experiences for the web.
+                        I build accessible, inclusive products and digital experiences.
                     </strong></p>
                 </div>
                 <Contact />
