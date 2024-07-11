@@ -79,7 +79,7 @@ const Projects = () => {
                 <Project 
                     image={MachineLearning} 
                     alt="Machine Learning image" 
-                    projectName="Machine Learning Study" 
+                    projectName="ML Study - Student Retention Analyzer" 
                     projectDetails={<MLDetails />} 
                     sourceAddress={'https://github.com/lkimdaryl/CSE151AProject'} 
                     liveDemoAddress={''} 
