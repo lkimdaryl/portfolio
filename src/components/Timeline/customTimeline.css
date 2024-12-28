@@ -22,11 +22,6 @@
     scrollbar-color: cyan transparent;
 }
 
-
-.css-1amxudc-MuiTypography-root-MuiTimelineOppositeContent-root {
-    display: none;
-}
-
 .content-container * {
     text-align: left;
 }
@@ -37,9 +32,13 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     #timeline-container {
         gap:20px;
+    }
+
+    .MuiTimelineOppositeContent-root {
+        display: none;
     }
     
 }

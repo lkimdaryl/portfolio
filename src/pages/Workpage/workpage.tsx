@@ -10,7 +10,7 @@ const Work = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 500) {
+      if (window.innerWidth <= 700) {
         setTimelinePosition("right");
         setTOC(false);
       } else {
