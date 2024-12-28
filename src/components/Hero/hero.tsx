@@ -1,5 +1,4 @@
 import './hero.css'
-import ProfilePic from '../../assets/profile_pic.png'
 import SectionWrapper from '../hoc/section-wrapper'
 import { useEffect, useState } from 'react';
 

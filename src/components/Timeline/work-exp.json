@@ -12,7 +12,8 @@
             "Integrated web services like Google's location API to enhance the app’s geolocation-based features.",
             "Logged technical documentation, writing comments and annotations, to ensure clarity and maintainability.",
             "Utilized CI/CD pipelines to automate the deployment process and establish continuous integration."
-        ]
+        ],
+        "achievements": []
     },
     "Aquillius Corporation": {
         "title": "Team Lead / R&D Intern",
@@ -27,7 +28,8 @@
             "Employed ideation techniques, such as storyboarding, mind mapping, and persona development, to gain a deeper understanding of the target audience and streamline processes for the development phase."
         ],
         "achievements": [
-            "Secured the $10,000 grand prize by impressing seven industry professionals in a pitch competition."
+            "Secured the $10,000 grand prize by impressing seven industry professionals in a pitch competition.",
+            "Ranked 1st in a popular vote for bringing the most innovative solution and presentation."
         ]
     }
   }

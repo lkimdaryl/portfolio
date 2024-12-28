@@ -16,14 +16,14 @@ import './customTimeline.css'
 const icons = [LaptopMacIcon, RepeatIcon];
 
 interface CustomTimelineProps {
-    pos: string;
+    pos: "left" | "right" | "alternate" | "alternate-reverse";
     toc: boolean;
 }
 
 const CustomTimeline = ({ pos, toc }: CustomTimelineProps) => {
 
     return (
-        <Timeline position={pos} id="timeline-container">
+        <Timeline id="timeline-container" position={pos}>
             {Object.entries(workExperience).map(([company, details], index) => {
             const IconComponent = icons[index % icons.length]; // Rotate through available icons
             return (
