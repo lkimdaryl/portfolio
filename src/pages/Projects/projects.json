@@ -28,7 +28,7 @@
         "alt": "MyPortfolio image",
         "description": "A custom website that showcases my projects and experience.",
         "sourceAddress": "https://github.com/lkimdaryl/portfolio",
-        "liveDemoAddress": "'https://lkimdaryl.netlify.app",
+        "liveDemoAddress": "",
         "technologies": ["HTML", "CSS", "React", "Vite", "TypeScript", "JavaScript", "JSON", "Spline", "Material UI"]
     }
 }
