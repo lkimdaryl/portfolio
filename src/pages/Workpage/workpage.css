@@ -1,0 +1,44 @@
+#work-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    place-items: start center;
+    width:100vw;
+    height:100vh;
+    margin-left: 20%;
+}
+
+#work-exp {
+    display: flex;
+    flex-direction: column;
+    place-self: start;
+    padding-top: 100px;
+}
+
+#work-exp h4 {
+    margin-bottom:0;
+    font-size: clamp(0.5rem, 2vw, 0.8rem);
+}
+
+#work-exp h1 {
+    margin-top:0;
+}
+
+@media screen and (max-width: 500px) {
+    #work-container {
+        place-items: start center;
+        /* width:90vw; */
+        height: calc(100vh - 200px);
+        padding: 150px 0 0 0;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    #work-exp {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 1193px) {
+    
+}

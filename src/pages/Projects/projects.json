@@ -1,0 +1,34 @@
+{    
+    "Food Journal": {
+        "image": "foodJournal.png",
+        "alt": "Food Journal image",
+        "description": "A community-driven platform for food enthusiasts. Powered by AI, Food Journal provides personalized recipe recommendations and connects users to their community and to top recipe sources.",
+        "sourceAddress": "https://github.com/lkimdaryl/FoodJournal2.0",
+        "liveDemoAddress": "https://foodjournal2.netlify.app",
+        "technologies": ["HTML", "CSS", "Python", "FastAPI", "React", "Vite", "JavaScript", "MySQL", "SQLAlchemy"]
+    },
+    "Translation App": {
+        "image": "translationApp.png",
+        "alt": "translation app image",
+        "description": "A mobile app that allows users to translate from one language to another. Has features such as speech to text and vice versa.",
+        "sourceAddress": "https://github.com/lkimdaryl/translator-app",
+        "liveDemoAddress": "",
+        "technologies": ["React", "React Native", "Expo", "TypeScript", "JavaScript"]
+    },
+    "Machine Learning Project": {
+        "image": "machineLearning.png",
+        "alt": "Machine Learning image",
+        "description": "A comprehensive machine learning endeavor that involves data preprocessing, model training, and performance evaluation. This project includes various machine learning algorithms, thoroughly evaluated for accuracy, precision, and recall.",
+        "sourceAddress": "https://github.com/lkimdaryl/CSE151AProject",
+        "liveDemoAddress": "",
+        "technologies": ["Python", "Numpy", "pandas", "scikit-learn", "Tensorflow"]
+    },
+    "My Portfolio": {
+        "image": "myPortfolio.png",
+        "alt": "MyPortfolio image",
+        "description": "A custom website that showcases my projects and experience.",
+        "sourceAddress": "https://github.com/lkimdaryl/portfolio",
+        "liveDemoAddress": "'https://lkimdaryl.netlify.app",
+        "technologies": ["HTML", "CSS", "React", "Vite", "TypeScript", "JavaScript", "JSON", "Spline", "Material UI"]
+    }
+}

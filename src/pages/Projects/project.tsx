@@ -1,8 +1,10 @@
+import { Tilt } from 'react-tilt'
+
 interface ProjectProps {
     image: string;
     alt: string;
     projectName: string;
-    projectDetails: any;
+    projectDetails: string;
     sourceAddress: string;
     liveDemoAddress: string;
     technologies?: string[];
@@ -22,11 +24,13 @@ const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveD
     return (
         <div className="project">
             <div className="project-content">
-                <img src={image} alt={alt} />
+                <Tilt options={{max: 45, scale: 1, speed: 450}}>
+                    <img src={image} alt={alt} />
+                </Tilt>
                 <div className="project-details">
                     <div><strong>{projectName}</strong></div>
                     <br/>
-                    <div>{projectDetails}</div>
+                    <p>{projectDetails}</p>
                     <br/>
                     {technologies && (
                         <div className="technologies">
@@ -43,7 +47,6 @@ const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveD
                     </div>    
                 </div>
             </div>
-            <div className="project-name"><strong>{projectName}</strong></div>
         </div>
     )
 }

@@ -1,0 +1,129 @@
+.project-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    width: 80vw;
+    height: calc(100vh - 100px);
+    padding-left: 100px;
+    place-items: center;
+}
+
+#project-intro {
+    display: flex;
+    flex-direction: column;
+    place-self: start;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+#project-intro h4 {
+    margin-bottom:0;    
+    font-size: clamp(0.5rem, 2vw, 0.8rem);
+}
+
+#project-intro h1 {
+    margin-top:0;    
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 90%;
+    height: 70vh;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: cyan transparent;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    border-top: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    backdrop-filter: blur(5px);
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    place-items: start center;
+    place-content: start center;
+}
+
+.project img {
+    width: clamp(150px, 30vw, 250px);
+    filter: drop-shadow(-6px -6px 2px #1C1C1C);
+    border-radius: 15% 5px;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px, 100%, 40vw);
+    backdrop-filter: blur(5px);
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-buttons button {
+    background: transparent;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-top: 1px solid cyan;
+    border-left: 1px solid cyan;
+    border-bottom: transparent;
+    border-right: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 1px gray;
+}
+
+.project-buttons button:hover {
+    filter:brightness(1.2);
+    background-color:turquoise;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.technology-tag {
+    filter: brightness(1.5);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 500px) {
+    .project-section {
+        gap: 20px;
+        padding: 0;
+        width:100vw;
+        height: 100vh;
+        place-items: center;
+    }
+    
+    #project-intro {
+        place-self: center;
+        padding-top: 110px;
+        text-align: center;
+    }
+}

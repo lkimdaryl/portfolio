@@ -1,0 +1,45 @@
+#timeline-container {
+    place-items: start center;
+    place-self: start center;
+    width: 90%;
+    height: 50vh;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: cyan transparent;
+}
+
+.content-container {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 10px;
+    border-top: 1px solid cyan;
+    border-left: 1px solid cyan;
+    background-image:  radial-gradient(circle at top left, #0c3148, #011D2F);
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: cyan transparent;
+}
+
+
+.css-1amxudc-MuiTypography-root-MuiTimelineOppositeContent-root {
+    display: none;
+}
+
+.content-container * {
+    text-align: left;
+}
+
+@media screen and (min-width: 1193px) {
+    #timeline-container {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #timeline-container {
+        gap:20px;
+    }
+    
+}

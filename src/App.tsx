@@ -1,19 +1,18 @@
 import './App.css'
-import Header from './components/Header/header'
-import Hero from './components/Hero/hero'
-import Main from './components/Main/main'
-function App() {
+import { Outlet } from 'react-router-dom'
+import Navigation from './components/Navigation/navigation'
+import Scene from './components/threeD/scene'
 
-  return (
-    <>
-      <Header />
-      <div className='content'>
-        <Hero />
-        <Main />
-      </div>
+export default function App() {
 
-    </>
-  )
+    return (
+        <div className='App'>
+            <div id='scene-container'>
+                <Scene />
+            </div>
+            <Navigation />
+            <Outlet />
+            <div style={{width: '140px', height: '40px', borderRadius: '15px', backgroundColor: '#001D2F', position: 'absolute', zIndex: -1, bottom: 18, right: 20}} />
+        </div>
+    )
 }
-
-export default App

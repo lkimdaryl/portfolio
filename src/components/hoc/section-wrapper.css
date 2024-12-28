@@ -1,0 +1,17 @@
+@keyframes slideIn {
+    from {
+        transform: translateX(20px); /* Start offset by 10px */
+        opacity: 0; /* Optional: make it fade in */
+    }
+    to {
+        transform: translateX(0); /* End at default position */
+        opacity: 1;
+    }
+}
+
+.section-wrapper {
+    animation: slideIn 1s ease-out;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
