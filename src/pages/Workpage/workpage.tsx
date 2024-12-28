@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 
 const Work = () => {
 
-  const [timelinePosition, setTimelinePosition] = useState("alternate");
+  const [timelinePosition, setTimelinePosition] = useState<"right" | "alternate">("alternate");
   const [TOC, setTOC] = useState(true);
 
   useEffect(() => {
