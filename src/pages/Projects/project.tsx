@@ -25,10 +25,10 @@ const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveD
         <div className="project">
             <div className="project-content">
                 <Tilt options={{max: 45, scale: 1, speed: 450}}>
-                    <img src={image} alt={alt} />
+                    <img className="project-image" src={image} alt={alt} />
                 </Tilt>
                 <div className="project-details">
-                    <div><strong>{projectName}</strong></div>
+                    <div className='project-name'><strong>{projectName}</strong></div>
                     <br/>
                     <p>{projectDetails}</p>
                     <br/>
@@ -36,7 +36,13 @@ const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveD
                         <div className="technologies">
                             <p>Technologies used:</p>
                             {technologies.map((tech, index) => (
-                                <span key={index} className="technology-tag">{tech}</span>
+                                // <span key={index} className="technology-tag">{tech}</span>
+                                <div className='tech-container'>
+                                    <Tilt options={{max: 45, scale: 1, speed: 450}}>
+                                        <img key={index} src={tech} alt={tech} className='technology-tag'/>
+                                    </Tilt>
+                                    <div className="tech-name">{tech.split('.')[0]}</div>
+                                </div>
                             ))}
                         </div>
                     )}
