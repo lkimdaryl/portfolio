@@ -12,7 +12,7 @@ const Navigation = () => {
 
   return (
     <nav>
-      <img src="kl-logo-nobg.png" id="logo" alt="kl-logo" />
+      <img src="lk-logo.png" id="logo" alt="kl-logo" />
       <ul>
         <li>
           <a

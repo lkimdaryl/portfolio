@@ -82,7 +82,7 @@
 
 .project-image {
     width: clamp(150px, 30vw, 250px);
-    filter: drop-shadow(-2px -2px 2px cyan);
+    filter: drop-shadow(-0.5px -0.5px 0.2px cyan);
     border-radius: 15% 5px;
 }
 
