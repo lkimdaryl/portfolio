@@ -23,7 +23,7 @@
         "liveDemoAddress": "",
         "technologies": ["react.png", "expo.png", "typescript.png", "js.png"]
     },
-    "Machine Learning Project": {
+    "Student Retention Analyzer": {
         "image": "machineLearning.png",
         "alt": "Machine Learning image",
         "description": "A comprehensive machine learning endeavor that involves data preprocessing, model training, and performance evaluation. This project includes various machine learning algorithms, thoroughly evaluated for accuracy, precision, and recall.",

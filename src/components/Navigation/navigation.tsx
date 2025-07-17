@@ -50,7 +50,7 @@ const Navigation = () => {
             Projects
           </a>
         </li>
-        <li><a href="/resume.pdf" target="_blank">Resume</a></li>
+        {/* <li><a href="/resume.pdf" target="_blank">Resume</a></li> */}
       </ul>
     </nav>
   );

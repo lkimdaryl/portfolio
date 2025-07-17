@@ -1,6 +1,6 @@
-#timeline-container {
+ #timeline-container {
     place-items: start center;
-    place-self: start center;
+    place-self: center center;
     width: 90%;
     height: 50vh;
     overflow: auto;
@@ -15,7 +15,7 @@
     max-height: 500px;
     border-radius: 10px;
     border-top: 1px solid cyan;
-    border-left: 1px solid cyan;
+    /* border-left: 1px solid cyan; */
     background-image:  radial-gradient(circle at top left, #0c3148, #011D2F);
     overflow: auto;
     scrollbar-width: thin;
@@ -24,6 +24,7 @@
 
 .content-container * {
     text-align: left;
+    display: block
 }
 
 @media screen and (min-width: 1193px) {

@@ -31,6 +31,36 @@
             "Secured the $10,000 grand prize by impressing seven industry professionals in a pitch competition.",
             "Ranked 1st in a popular vote for bringing the most innovative solution and presentation."
         ]
+    },
+    "85c Bakery and Cafe": {
+        "title": "Shift Lead",
+        "location": "San Diego, United States",
+        "start_date": "06/2016",
+        "end_date": "01/2020",
+        "responsibilities": [
+            "Oversaw the daily operations and assigned tasks for efficient workflow.",
+            "Fostered a productive, team-oriented environment through clear communication, and hands-on leadership.",
+            "Trained new employees, equipping them with the skills and resources for long-term success.",
+            "Identified individual team members’ strengths and weaknesses to optimize team performance and offer targeted support.",
+            "Delivered detailed sales reports to upper management for performance analysis and strategic planning.",
+            "Diagnosed and resolved technical issues, ensuring uninterrupted store operations and system functionality."
+        ],
+        "achievements": []
+    },
+    "KFC": {
+        "title": "Cashier",
+        "location": "San Diego, United States",
+        "start_date": "06/2016",
+        "end_date": "01/2020",
+        "responsibilities": [
+            "Handled customer transactions accurately and efficiently in a fast-paced environment.",
+            "Provided friendly and professional customer service, addressing guest inquiries and resolving complaints to ensure satisfaction.",
+            "Maintained cleanliness of the front counter and dining area to meet health and safety standards.",
+            "Assisted with daily cash reconciliation, ensuring till balance and reporting discrepancies to management.",
+            "Promoted new menu items and upsold products to increase sales and enhance customer experience.",
+            "Followed company procedures for food safety, cash handling, and customer service best practices."
+        ],
+        "achievements": []
     }
   }
   
