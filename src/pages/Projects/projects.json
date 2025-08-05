@@ -12,8 +12,8 @@
         "alt": "Food Journal image",
         "description": "A community-driven platform for food enthusiasts. Powered by AI, Food Journal provides personalized recipe recommendations and connects users to their community and to top recipe sources.",
         "sourceAddress": "https://github.com/lkimdaryl/FoodJournal2.0",
-        "liveDemoAddress": "https://foodjournal2.netlify.app",
-        "technologies": ["html.png", "CSS3.png", "python.png", "FastAPI.png", "react.png", "Vite.js.png", "js.png", "MySQL.png", "SQLAlchemy.png"]
+        "liveDemoAddress": "https://foodjournalv2.netlify.app",
+        "technologies": ["html.png", "CSS3.png", "python.png", "FastAPI.png", "react.png", "Vite.js.png", "typescript.png", "js.png", "MySQL.png", "SQLAlchemy.png"]
     },
     "Translation App": {
         "image": "translationApp.png",
