@@ -8,12 +8,14 @@ interface ProjectProps {
     sourceAddress: string;
     liveDemoAddress: string;
     technologies?: string[];
+    siteOverviewAddress?: string;
 }
 
-const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveDemoAddress, technologies}: ProjectProps) => {
+const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveDemoAddress, technologies, siteOverviewAddress}: ProjectProps) => {
 
     const handleSourceClick = () => {
-        window.open(sourceAddress, '_blank');
+        const path = siteOverviewAddress? siteOverviewAddress : sourceAddress;
+        window.open(path, '_blank');
     };
 
     const handleLiveDemoClick = () => {
@@ -48,7 +50,7 @@ const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveD
                     )}
                     <br/><br/>
                     <div className="project-buttons">
-                        <button onClick={handleSourceClick}>Source</button>
+                        <button onClick={handleSourceClick}>{siteOverviewAddress? "Project Overview" : "Source"}</button>
                         {liveDemoAddress && <button onClick={handleLiveDemoClick}>Live Demo</button>}
                     </div>    
                 </div>

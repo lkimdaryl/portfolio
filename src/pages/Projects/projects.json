@@ -5,7 +5,8 @@
         "description": "An educational platform dedicated to climate justice and renewable energy awareness. EcoSpark empowers teachers and students with hands-on learning experiences and interactive resources focused on solar energy and sustainability.",
         "sourceAddress": "https://github.com/ethanmypan/climateEductationWebsite",
         "liveDemoAddress": "https://ecospark.netlify.app",
-        "technologies": ["html.png", "react.png", "CSS3.png", "Vite.js.png", "spline.png"]
+        "technologies": ["html.png", "react.png", "CSS3.png", "Vite.js.png", "spline.png"],
+        "siteOverviewAddress": "https://sites.google.com/ucsd.edu/syn100-ecosparks/home"
     },
     "Food Journal": {
         "image": "foodJournal.png",
@@ -13,7 +14,8 @@
         "description": "A community-driven platform for food enthusiasts. Powered by AI, Food Journal provides personalized recipe recommendations and connects users to their community and to top recipe sources.",
         "sourceAddress": "https://github.com/lkimdaryl/FoodJournal2.0",
         "liveDemoAddress": "https://foodjournalv2.netlify.app",
-        "technologies": ["html.png", "CSS3.png", "python.png", "FastAPI.png", "react.png", "Vite.js.png", "typescript.png", "js.png", "PostgresSQL.png", "SQLAlchemy.png"]
+        "technologies": ["html.png", "CSS3.png", "python.png", "FastAPI.png", "react.png", "Vite.js.png", "typescript.png", "js.png", "PostgresSQL.png", "SQLAlchemy.png"],
+        "siteOverviewAddress": ""
     },
     "Translation App": {
         "image": "translationApp.png",
@@ -21,7 +23,8 @@
         "description": "A mobile app that allows users to translate from one language to another. Has features such as speech to text and vice versa.",
         "sourceAddress": "https://github.com/lkimdaryl/translator-app",
         "liveDemoAddress": "",
-        "technologies": ["react.png", "expo.png", "typescript.png", "js.png"]
+        "technologies": ["react.png", "expo.png", "typescript.png", "js.png"],
+        "siteOverviewAddress": ""
     },
     "Student Retention Analyzer": {
         "image": "machineLearning.png",
@@ -29,7 +32,8 @@
         "description": "A comprehensive machine learning endeavor that involves data preprocessing, model training, and performance evaluation. This project includes various machine learning algorithms, thoroughly evaluated for accuracy, precision, and recall.",
         "sourceAddress": "https://github.com/lkimdaryl/CSE151AProject",
         "liveDemoAddress": "",
-        "technologies": ["python.png", "NumPy.png", "Pandas.png", "scikit-learn.png", "TensorFlow.png"]
+        "technologies": ["python.png", "NumPy.png", "Pandas.png", "scikit-learn.png", "TensorFlow.png"],
+        "siteOverviewAddress": ""
     },
     "My Portfolio": {
         "image": "lk-logo.png",
@@ -37,6 +41,7 @@
         "description": "A custom website that showcases my projects and experience.",
         "sourceAddress": "https://github.com/lkimdaryl/portfolio",
         "liveDemoAddress": "",
-        "technologies": ["html.png", "CSS3.png", "react.png", "Vite.js.png", "typescript.png", "js.png", "JSON.png", "spline.png", "MaterialUI.png"]
+        "technologies": ["html.png", "CSS3.png", "react.png", "Vite.js.png", "typescript.png", "js.png", "JSON.png", "spline.png", "MaterialUI.png"],
+        "siteOverviewAddress": ""
     }
 }

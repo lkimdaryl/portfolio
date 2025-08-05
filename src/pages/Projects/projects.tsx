@@ -21,7 +21,8 @@ const Projects = () => {
                         projectDetails={value.description} 
                         sourceAddress={value.sourceAddress} 
                         liveDemoAddress={value.liveDemoAddress} 
-                        technologies={value.technologies} />
+                        technologies={value.technologies}
+                        siteOverviewAddress={value.siteOverviewAddress} />
                 ))}
             </div>
         </div>
