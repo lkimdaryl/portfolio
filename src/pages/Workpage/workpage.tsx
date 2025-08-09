@@ -5,16 +5,13 @@ import { useEffect, useState } from 'react'
 const Work = () => {
 
   const [timelinePosition, setTimelinePosition] = useState<"right" | "alternate">("alternate");
-  const [TOC, setTOC] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 700) {
         setTimelinePosition("right");
-        setTOC(false);
       } else {
         setTimelinePosition("alternate");
-        setTOC(true);
       }
     };
     window.addEventListener('resize', handleResize);
