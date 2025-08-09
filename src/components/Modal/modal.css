@@ -1,0 +1,28 @@
+#box {
+    border-radius: 10px;
+    width: 70vw;
+    max-width: 400px;
+    min-width: 280px;
+    height: fit-content;
+    border-radius: 10px;
+    outline: thin ridge cyan;
+    background-image:  radial-gradient(circle at center, #0c3148, #011D2F);
+    scrollbar-width: thin;
+    scrollbar-color: cyan transparent;
+    position: relative;
+}
+
+#box button {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    color: cyan;
+    align-self: flex-end;
+}
+
+.MuiModal-backdrop {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+

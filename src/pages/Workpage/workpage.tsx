@@ -1,8 +1,7 @@
 import './workpage.css'
 import SectionWrapper from '../../components/hoc/section-wrapper'
-import CustomTimeline from '../../components/Timeline/customTimeline'
+import CustomTimeline from '../../components/Timeline/customTimeline.tsx'
 import { useEffect, useState } from 'react'
-
 const Work = () => {
 
   const [timelinePosition, setTimelinePosition] = useState<"right" | "alternate">("alternate");
@@ -29,8 +28,8 @@ const Work = () => {
             <h4>What I have done so far</h4>
             <h1>Work Experience.</h1>
         </div>
-        <div>
-            <CustomTimeline pos={timelinePosition} toc={TOC} />
+        <div id='customtimeline-container'>
+            <CustomTimeline pos={timelinePosition} />
         </div>
     </div>
   )

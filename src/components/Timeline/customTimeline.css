@@ -1,41 +1,48 @@
- #timeline-container {
-    place-items: start center;
-    place-self: center center;
-    width: 90%;
-    height: 50vh;
+ #customtimeline-container {
+    display: flex;
+    flex-direction: column;
+    place-self: center;
     overflow: auto;
     scrollbar-width: thin;
     scrollbar-color: cyan transparent;
+    gap: 20px;
+    height: 70vh;
+    width: auto;
 }
 
 .content-container {
-    width: auto;
-    height: auto;
-    max-width: 500px;
-    max-height: 500px;
+    width: 400px;
+    height: fit-content;
     border-radius: 10px;
-    border-top: 1px solid cyan;
-    /* border-left: 1px solid cyan; */
+    box-shadow: -1px -1px cyan;
     background-image:  radial-gradient(circle at top left, #0c3148, #011D2F);
-    overflow: auto;
     scrollbar-width: thin;
     scrollbar-color: cyan transparent;
+    cursor: pointer;
+    transform: scale(0.9)
+}
+.content-container:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
 }
 
 .content-container * {
+    display: block;
     text-align: left;
-    display: block
+    height: fit-content;
+    width: fit-content;
 }
 
-@media screen and (min-width: 1193px) {
-    #timeline-container {
-        height: 90vh;
-    }
+.MuiTimelineConnector-root {
+    flex-grow: 1; /* stretch connector lines */
 }
+
 
 @media screen and (max-width: 700px) {
-    #timeline-container {
-        gap:20px;
+
+    .content-container {
+        width: auto;
+        transform: scale(0.7);
     }
 
     .MuiTimelineOppositeContent-root {

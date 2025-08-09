@@ -5,13 +5,11 @@
         "start_date": "01/2024",
         "end_date": "05/2024",
         "responsibilities": [
-            "Created RESTful API endpoints for querying and dispatching notifications and trip management operations.",
-            "Constructed a scalable back-end infrastructure, comprising modules, services, DTOs, entities, and controllers as part of the REST API design process.",
-            "Developed schemas using Prisma and PostgreSQL for efficient database design and management.",
-            "Utilized web technologies such as Jira for effective project management and Figma for mobile design.",
-            "Integrated web services like Google's location API to enhance the app’s geolocation-based features.",
-            "Logged technical documentation, writing comments and annotations, to ensure clarity and maintainability.",
-            "Utilized CI/CD pipelines to automate the deployment process and establish continuous integration."
+            "Built RESTful API endpoints for notifications and trip management.",
+            "Constructed backend modules, services, and controllers as part of the REST API design process.",
+            "Designed schemas using Prisma and PostgreSQL.",
+            "Integrated Google Location API for geolocation features.",
+            "Documented code and automated deployments with CI/CD pipelines."
         ],
         "achievements": []
     },
@@ -21,15 +19,15 @@
         "start_date": "06/2022",
         "end_date": "08/2022",
         "responsibilities": [
-            "Led a cross-functional team, providing guidance towards successful product development.",
-            "Facilitated teamwork in producing engaging presentations and reports to communicate project status.",
-            "Conducted research and synthesized team insights to make informed decision-making.",
-            "Managed project budget effectively by maintaining a Build of Materials (BoM) list in MS Excel.",
-            "Employed ideation techniques, such as storyboarding, mind mapping, and persona development, to gain a deeper understanding of the target audience and streamline processes for the development phase."
+            "Led a cross-functional team through product development.",
+            "Managed budget and materials using MS Excel.",
+            "Conducted research and synthesized findings for design decisions.",
+            "Produced presentations and reports to communicate progress.",
+            "Streamlined development phase by employing ideation techniques such as storyboarding and mind mapping."
         ],
         "achievements": [
-            "Secured the $10,000 grand prize by impressing seven industry professionals in a pitch competition.",
-            "Ranked 1st in a popular vote for bringing the most innovative solution and presentation."
+            "Secured $10,000 grand prize in a pitch competition.",
+            "Ranked 1st in popular vote for innovation."
         ]
     },
     "85c Bakery and Cafe": {
@@ -38,12 +36,11 @@
         "start_date": "06/2016",
         "end_date": "01/2020",
         "responsibilities": [
-            "Oversaw the daily operations and assigned tasks for efficient workflow.",
-            "Fostered a productive, team-oriented environment through clear communication, and hands-on leadership.",
-            "Trained new employees, equipping them with the skills and resources for long-term success.",
-            "Identified individual team members’ strengths and weaknesses to optimize team performance and offer targeted support.",
-            "Delivered detailed sales reports to upper management for performance analysis and strategic planning.",
-            "Diagnosed and resolved technical issues, ensuring uninterrupted store operations and system functionality."
+            "Oversaw daily operations and delegated tasks for efficient workflow.",
+            "Trained and mentored new employees.",
+            "Optimized team performance through targeted support.",
+            "Prepared sales reports for management review.",
+            "Diagnosed and resolved POS (Point of Sale) technical issues"
         ],
         "achievements": []
     },
@@ -53,11 +50,11 @@
         "start_date": "05/2014",
         "end_date": "06/2016",
         "responsibilities": [
-            "Handled customer transactions accurately and efficiently in a fast-paced environment.",
-            "Provided friendly and professional customer service, addressing guest inquiries and resolving complaints to ensure satisfaction.",
-            "Maintained cleanliness of the front counter and dining area to meet health and safety standards.",
-            "Assisted with daily cash reconciliation, ensuring till balance and reporting discrepancies to management.",
-            "Promoted new menu items and upsold products to increase sales and enhance customer experience.",
+            "Processed customer transactions accurately and efficiently.",
+            "Provided friendly and professional customer service, addressing guest inquiries and and resolving issues.",
+            "Maintained cleanliness of dining and counter areas to meet health and safety standards.",
+            "Balanced cash drawer and reported discrepancies.",
+            "Promoted new menu items and upsold products.",
             "Followed company procedures for food safety, cash handling, and customer service best practices."
         ],
         "achievements": []
