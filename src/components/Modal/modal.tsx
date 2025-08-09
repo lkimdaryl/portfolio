@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -24,7 +23,12 @@ interface modalProps{
 
 interface Job {
   company: string;
-  [key: string]: any; // optional, if you expect more props
+  title?: string;
+  start_date?: string;
+  end_date?: string;
+  location?: string;
+  responsibilities: string[];
+  achievements?: string[];
 }
 
 export default function BasicModal( {open, handleClose, job} : modalProps) {
