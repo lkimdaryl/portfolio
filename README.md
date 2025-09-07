@@ -3,7 +3,7 @@
 Welcome to my portfolio! This is a showcase of my projects, skills, and experiences as a developer. Built with a focus on creativity and functionality, the portfolio highlights my passion for coding, problem-solving, and creating impactful solutions.
 
 ## 🔗 Live Demo
-Check out the live site here: [Portfolio Website](https://lkimdaryl.netlify.app/)
+Check out the live site here: [Portfolio Website](https://lkimdev.site)
 
 ## 🖼️ Features
 - **Interactive Design:** Engaging animations and interactive elements to enhance user experience.
