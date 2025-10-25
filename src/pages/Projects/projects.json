@@ -12,9 +12,9 @@
         "image": "foodJournal.png",
         "alt": "Food Journal image",
         "description": "A community-driven platform for food enthusiasts. Powered by AI, Food Journal provides personalized recipe recommendations and connects users to their community and to top recipe sources.",
-        "sourceAddress": "https://github.com/lkimdaryl/FoodJournal2.0",
-        "liveDemoAddress": "https://foodjournalv2.netlify.app",
-        "technologies": ["html.png", "CSS3.png", "python.png", "FastAPI.png", "react.png", "Vite.js.png", "typescript.png", "js.png", "PostgresSQL.png", "SQLAlchemy.png"],
+        "sourceAddress": "https://github.com/lkimdaryl/foodjournal",
+        "liveDemoAddress": "https://foodjournal-omega.vercel.app",
+        "technologies": ["react.png", "typescript.png", "Next.js.png", "Vercel.png",  "PostgresSQL.png", "Supabase.png", "html.png", "CSS3.png", "python.png", "FastAPI.png", "SQLAlchemy.png", "js.png"],
         "siteOverviewAddress": ""
     },
     "Translation App": {
