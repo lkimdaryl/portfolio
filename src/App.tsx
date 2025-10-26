@@ -7,12 +7,11 @@ export default function App() {
 
     return (
         <div className='App'>
-            <div id='scene-container'>
-                <Scene />
-            </div>
+            {/* <div id='scene-container'>
+            </div> */}
+            <Scene />
             <Navigation />
             <Outlet />
-            <div style={{width: '140px', height: '40px', borderRadius: '15px', backgroundColor: '#001D2F', position: 'absolute', zIndex: -1, bottom: 18, right: 20}} />
         </div>
     )
 }

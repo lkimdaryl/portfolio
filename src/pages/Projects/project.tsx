@@ -6,12 +6,13 @@ interface ProjectProps {
     projectName: string;
     projectDetails: string;
     sourceAddress: string;
-    liveDemoAddress: string;
+    liveDemoAddress?: string;
+    apiDocumentationAddress?: string;
     technologies?: string[];
     siteOverviewAddress?: string;
 }
 
-const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveDemoAddress, technologies, siteOverviewAddress}: ProjectProps) => {
+const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveDemoAddress, apiDocumentationAddress, technologies, siteOverviewAddress}: ProjectProps) => {
 
     const handleSourceClick = () => {
         const path = siteOverviewAddress? siteOverviewAddress : sourceAddress;
@@ -21,6 +22,12 @@ const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveD
     const handleLiveDemoClick = () => {
         window.open(liveDemoAddress, '_blank');
     };
+
+    const handleApiDocumentationClick = () => {
+        if (apiDocumentationAddress) {
+            window.open(apiDocumentationAddress, '_blank');
+        }
+    }
     
 
     return (
@@ -51,6 +58,7 @@ const project = ({ image, alt, projectName, projectDetails, sourceAddress, liveD
                     <br/><br/>
                     <div className="project-buttons">
                         <button onClick={handleSourceClick}>{siteOverviewAddress? "Project Overview" : "Source"}</button>
+                        {apiDocumentationAddress && <button onClick={handleApiDocumentationClick}>API Documentation</button>}
                         {liveDemoAddress && <button onClick={handleLiveDemoClick}>Live Demo</button>}
                     </div>    
                 </div>
