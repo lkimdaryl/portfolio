@@ -11,8 +11,7 @@ import {
 import Home from './pages/Homepage/home'
 import AboutMe from './pages/AboutMe/aboutme'
 import Work from './pages/Workpage/workpage'
-import Projects from './pages/Projects/projects.tsx'
-
+import Projects from './pages/Projects/projects'
 
 const router = createBrowserRouter([
   {
